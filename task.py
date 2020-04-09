@@ -1,6 +1,11 @@
 import string
 import random
 
+# Container to store all intern login detail
+interns_login_details = {} 
+# Temporary storage of intern data
+intern_data = []
+
 while(True):
     # collect interns data
     firstname = input("First Name: ") 
